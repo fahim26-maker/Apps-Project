@@ -1,0 +1,291 @@
+[
+  {
+    "image": "https://i.ibb.co.com/0j2VqXtd/Spotify-App-Logo-svg.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 1,
+    "description": "Spotify is a music streaming platform offering millions of songs, albums, and podcasts. Users can create playlists, follow artists, and explore curated content based on listening habits. With offline mode, high-quality audio, and cross-device syncing, Spotify ensures a seamless experience. It supports collaborative playlists and social sharing, making music discovery interactive. Premium users enjoy ad-free playback, unlimited skips, and enhanced sound. The app also integrates with smart speakers and wearables. Whether you're commuting, working out, or relaxing, Spotify delivers personalized soundtracks for every moment. Its sleek interface and powerful algorithm make it a favorite among music lovers worldwide.",
+    "size": 45,
+    "reviews": 32000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2400000 },
+      { "name": "4 star", "count": 6400000 },
+      { "name": "5 star", "count": 21120000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Cs8CcTxz/Instagram-logo-2022-svg.webp",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 2,
+    "description": "Instagram is a social media app focused on photo and video sharing. Users can post content to their feed, share ephemeral Stories, and create short-form Reels. The app offers filters, editing tools, and interactive features like polls and stickers. Businesses use Instagram to market products and engage with customers. The Explore tab helps users discover trending content and new creators. Instagram also supports direct messaging and live streaming. With a sleek design and global reach, it’s a hub for influencers, brands, and everyday users. Whether for creativity or connection, Instagram remains a top platform for visual storytelling.",
+    "size": 60,
+    "reviews": 40000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 23500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nNbV0gPB/maps-96in128dp.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "Google Maps is a navigation app that helps users explore the world with confidence. It offers real-time GPS directions, traffic updates, and route planning for driving, walking, biking, and public transit. Users can discover nearby restaurants, attractions, and businesses with reviews, photos, and hours. Street View and satellite imagery provide immersive experiences, while offline maps ensure access without internet. Google Maps supports location sharing and saved places for easy travel planning. Whether commuting or traveling abroad, it’s an essential tool for finding your way and discovering new destinations. Its accuracy and features make it a global favorite.",
+    "size": 35,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 10200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nMFNQVZf/expressvpn-tiktok-videos.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 4,
+    "description": "TikTok is a short-form video platform that empowers users to create, share, and discover entertaining content. From dance challenges and comedy skits to educational tips and DIY hacks, TikTok offers endless creativity. The app features editing tools, filters, and effects that make content creation accessible. Its algorithm delivers personalized feeds based on user interests, ensuring high engagement. TikTok supports live streaming and duet features for collaboration. With a vibrant global community and viral trends, TikTok has become a cultural phenomenon and a hub for digital expression. It’s ideal for creators, entertainers, and anyone seeking bite-sized fun.",
+    "size": 80,
+    "reviews": 25000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 13500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/R4p1PK6y/sm-5b321c99945a2.jpg",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "id": 5,
+    "description": "WhatsApp is a secure messaging and calling app that connects people globally. With end-to-end encryption, users can send texts, voice messages, photos, videos, and documents safely. The app supports group chats, voice and video calls, and status updates that disappear after 24 hours. WhatsApp Web allows seamless communication from desktop browsers. Its intuitive interface ensures ease of use for all ages. Businesses use WhatsApp Business to interact with customers and manage orders. Whether for personal or professional use, WhatsApp remains a reliable and widely adopted communication tool with billions of active users and a trusted reputation.",
+    "size": 30,
+    "reviews": 35000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 15500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/CKHyj0Jb/yout.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "YouTube is the world’s largest video-sharing platform, offering a vast library of content ranging from music videos and tutorials to vlogs and documentaries. Users can subscribe to channels, leave comments, and create playlists for personalized viewing. Content creators use YouTube Studio to manage uploads, analytics, and monetization. The app supports live streaming, captions, and offline downloads for premium users. With powerful search and recommendation algorithms, YouTube helps users discover new interests and stay informed. Whether you're learning a new skill, enjoying entertainment, or following your favorite creators, YouTube delivers high-quality video content across all devices.",
+    "size": 70,
+    "reviews": 60000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 34000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/VWLkgcsH/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 7,
+    "description": "Zoom is a video conferencing app designed for virtual meetings, webinars, and online collaboration. It supports HD video, screen sharing, breakout rooms, and chat features. Users can schedule meetings, record sessions, and integrate with calendars. Zoom is widely used in education, business, and personal communication. Its intuitive interface and reliable performance make it a go-to tool for remote work and learning. The app also offers virtual backgrounds and noise suppression for professional calls. Whether hosting a team meeting or attending a virtual class, Zoom provides a seamless and secure environment for connecting with others across the globe.",
+    "size": 55,
+    "reviews": 8000000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 3500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bMdnK7nq/download.jpg",
+    "title": "Microsoft Office",
+    "companyName": "Microsoft Corporation",
+    "id": 8,
+    "description": "Microsoft Office is a productivity suite that includes Word, Excel, PowerPoint, and more. The mobile app allows users to create, edit, and share documents on the go. It supports cloud storage integration with OneDrive, real-time collaboration, and PDF scanning. Whether you're drafting a report, building a spreadsheet, or designing a presentation, Office provides powerful tools in a compact interface. The app is ideal for students, professionals, and teams working remotely. With templates, formatting options, and cross-device syncing, Microsoft Office ensures productivity anytime, anywhere. It’s a trusted solution for managing work efficiently from your smartphone or tablet.",
+    "size": 90,
+    "reviews": 10000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 5600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ccq69gnn/Netflix-Symbol.png",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 9,
+    "description": "Netflix is a streaming service offering a vast library of movies, TV shows, documentaries, and original content. Users can watch on-demand, download for offline viewing, and create multiple profiles. The app supports personalized recommendations, subtitles, and parental controls. Netflix Originals like Stranger Things and The Crown have gained global acclaim. With content across genres and languages, Netflix caters to diverse audiences. The interface is user-friendly, and playback quality adjusts to network speed. Whether binge-watching a series or discovering indie films, Netflix delivers entertainment tailored to your taste. It’s a top choice for streaming anytime, anywhere.",
+    "size": 65,
+    "reviews": 22000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1800000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gFbXH3Mj/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 10,
+    "description": "Amazon Shopping is an e-commerce app that lets users browse, purchase, and track millions of products. From electronics and fashion to groceries and books, Amazon offers competitive prices and fast delivery. The app supports secure payments, wish lists, and personalized recommendations. Users can read reviews, compare items, and access exclusive deals. Prime members enjoy benefits like free shipping and streaming. The interface is intuitive, with filters and search tools to simplify shopping. Whether buying essentials or gifts, Amazon Shopping provides a convenient and reliable experience. It’s a one-stop shop for everything you need, delivered to your door.",
+    "size": 40,
+    "reviews": 18000000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 9900000 }
+    ]
+  },
+  
+  {
+    "image": "https://i.ibb.co.com/B2hMb7Qp/images.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 11,
+    "description": "Facebook is a social networking app that connects people across the globe. Users can share updates, photos, and videos, join groups, and follow pages. The app supports messaging, live streaming, and event planning. Businesses use Facebook to advertise and engage with customers. Its News Feed algorithm delivers personalized content based on user interests. Facebook also offers Marketplace for buying and selling locally. With robust privacy settings and community tools, it fosters meaningful interactions. Whether staying in touch with friends or building a brand, Facebook remains a versatile platform for communication, entertainment, and discovery in the digital age.",
+    "size": 65,
+    "reviews": 45000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 19000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JjNnQRwV/gmail.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Gmail is a powerful email app that offers secure, organized communication. Users can send and receive messages, manage labels, and search through emails with ease. The app integrates with Google Workspace, allowing access to Calendar, Drive, and Meet. Smart features like spam filtering, priority inbox, and auto-replies enhance productivity. Gmail supports multiple accounts and offline access. Its clean interface and robust security make it ideal for personal and professional use. Whether scheduling meetings or sharing files, Gmail streamlines digital correspondence. With billions of users worldwide, it remains one of the most trusted and efficient email platforms available.",
+    "size": 30,
+    "reviews": 15000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 7200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PGd2Xyv7/GOOGLEDRIVELOGO-1.webp",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Google Drive is a cloud storage app that allows users to save, access, and share files securely. It supports documents, spreadsheets, presentations, and multimedia. Users can collaborate in real-time, organize files into folders, and sync across devices. Drive integrates with Google Workspace, enhancing productivity for teams and individuals. Offline access and version history ensure flexibility and control. With powerful search and sharing permissions, users can manage content efficiently. Whether backing up photos or working on group projects, Google Drive offers a reliable and user-friendly solution for digital storage and collaboration. It’s trusted by millions for personal and professional use.",
+    "size": 40,
+    "reviews": 12000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 6900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1tC7XqnS/117948835.jpg",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "Google Photos is a photo management app that offers cloud storage, organization, and sharing features. Users can back up images and videos automatically, freeing up device space. The app uses AI to group photos by people, places, and events. Editing tools, filters, and animations enhance visual content. Google Photos supports albums, shared libraries, and collaborative collections. Its search function makes finding memories easy. With seamless integration across devices and smart suggestions, it’s ideal for preserving and enjoying life’s moments. Whether organizing travel photos or creating slideshows, Google Photos provides a secure and intuitive platform for visual storytelling.",
+    "size": 35,
+    "reviews": 10000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 6600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4RGyVZpN/images-1.png",
+    "title": "Google Play Store",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Google Play Store is the official app marketplace for Android devices. It offers millions of apps, games, books, movies, and more. Users can browse categories, read reviews, and download content securely. The app supports automatic updates, parental controls, and personalized recommendations. Developers use Play Console to publish and manage apps. Play Protect scans for malware, ensuring safety. Whether discovering new productivity tools or entertainment options, the Play Store provides a seamless experience. Its intuitive design and vast selection make it the go-to source for digital content. With global reach, it powers the Android ecosystem and user engagement.",
+    "size": 25,
+    "reviews": 30000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YB8wJmcW/images-1.jpg",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 16,
+    "description": "Google Chrome is a fast, secure web browser designed for mobile and desktop use. It supports tabbed browsing, voice search, and syncing across devices. Users can access bookmarks, history, and saved passwords with ease. Chrome integrates with Google services and offers extensions for customization. Its minimalist design and performance optimization ensure smooth navigation. Incognito mode provides private browsing, while Safe Browsing protects against malicious sites. Whether researching, streaming, or shopping, Chrome delivers a reliable experience. Frequent updates and developer tools make it a favorite among users and professionals. It’s a cornerstone of modern internet access and productivity.",
+    "size": 50,
+    "reviews": 25000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 10500000 }
+    ]
+  }
+  ]
