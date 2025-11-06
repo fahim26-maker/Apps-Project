@@ -3,9 +3,10 @@ import { useRouteError } from 'react-router';
 
 const ErrorPage = () => {
     const error  = useRouteError()
+    console.log(error)
     return (
         <div className='text-2xl text-center'>
-            {error.message}
+            404 not found
         </div>
     );
 };
