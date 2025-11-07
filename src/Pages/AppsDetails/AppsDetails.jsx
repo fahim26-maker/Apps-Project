@@ -4,12 +4,20 @@ import downL from "../../assets/fi_18110198.png";
 import star from "../../assets/fi_1828884.png";
 import like from "../../assets/Vector.png";
 import Chart from 'chart.js/auto';
+import cat from "../../assets/cat.png"
+import toast from 'react-hot-toast';
+
 
 const AppsDetails = () => {
+const handleInstall = () => {
+  setIsInstalled(true);
+  toast.success('App Installed Successfully!');
+};
+  
   const { id } = useParams();
   const data = useLoaderData();
   const [singleApp, setSingleApp] = useState(null);
-
+const [isInstalled, setIsInstalled] = useState(false);
   useEffect(() => {
     const findApp = data?.find((app) => app.id === parseInt(id));
     setSingleApp(findApp);
@@ -44,7 +52,18 @@ const AppsDetails = () => {
       });
     }
   }, [singleApp]);
-  if (!singleApp) return <p>app not found</p>
+  if (!singleApp)  
+  return(
+    
+      <div className=' justify-center items-center justify-items-center mt-10'>
+        <img src={cat} className='h-80 w-80' />
+        <h1 className='text-4xl font-bold mt-7'>OPPS!! APP NOT FOUND</h1>
+        <p className='text-gray-500 mt-4'>The App you are requesting is not found on our system.  please try another apps</p>
+        <button className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white btn  mx-auto flex justify-center mt-4 mb-20'>Go Back !!</button>
+      </div>
+    
+  )
+  
   return (
     <section className='bg-[#FFF0E1]'>
       <div className='w-9/12 mx-auto'>
@@ -73,7 +92,14 @@ const AppsDetails = () => {
               </div>
             </div>
             <div>
-              <button className='btn bg-[#00D390] text-white mt-4'>Install Now (291 MB)</button>
+              <button
+  className={`btn mt-4 text-white ${isInstalled ? 'bg-gray-400' : 'bg-[#00D390]'}`}
+  onClick={handleInstall}
+  disabled={isInstalled}
+>
+  {isInstalled ? 'Installed' : 'Install Now'}
+</button>
+
             </div>
           </div>
         </div>

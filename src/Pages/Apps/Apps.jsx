@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import useApps from '../../Hook/useApps';
 import AppsCard from '../AppsCard/AppsCard';
+import cat from "../../assets/cat.png"
+
 
 const Apps = () => {
   // searching apps----------
@@ -35,13 +37,22 @@ const Apps = () => {
                 </label>
             </div>
           </div>
-          <div className='pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-[#FFF0E1] px-25 pb-10'>
-            {
-              searchedApps.map(apps => (
-                <AppsCard apps={apps} key={apps.id}></AppsCard>
-              ))
-            }
-          </div>
+          <div className='pt-10 bg-[#FFF0E1] px-25 pb-10'>
+  {searchedApps.length > 0 ? (
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+      {searchedApps.map(apps => (
+        <AppsCard apps={apps} key={apps.id} />
+      ))}
+    </div>
+  ) : (
+    <div>
+    <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-4xl font-semibold text-gray-500
+    '>No App Found !!</p>
+    <img src={cat} className='mx-auto' />
+    </div>
+  )}
+</div>
+
         </div>
     );
 };

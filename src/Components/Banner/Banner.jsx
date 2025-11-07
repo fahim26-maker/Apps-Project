@@ -1,6 +1,6 @@
 import React from 'react';
-import pS from "../../assets/Group.png"
-import aS from "../../assets/Group (1).png"
+import pS from "../../assets/pstore.png"
+import aS from "../../assets/appstore.png"
 import iPhone from "../../assets/Iphone.png"
 import clock from "../../assets/Ellipse 24.png"
 import right from "../../assets/Ellipse 26.png"

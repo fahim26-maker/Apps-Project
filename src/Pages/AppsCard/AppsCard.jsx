@@ -12,7 +12,7 @@ const AppsCard = ({apps}) => {
                 <img src={image} className='h-50 mx-auto'/>
                 <div className='flex mt-2'><h1>{title}</h1> : <h2>{companyName}</h2></div>
                 <div className='flex justify-between'>
-                <button className='flex bg-gray-200 p-1 rounded-xl text-[#00D390]'><img src={dow} className='h-4 mt-1 mr-1'/>{downloads}+</button>
+                <button className='flex bg-gray-200 p-1 rounded-xl text-[#00D390]'><img src={dow} className='h-4 mt-1 mr-1'/>{downloads}</button>
                 <button className='flex bg-gray-200 p-1 rounded-xl text-[#FF8811]'><img src={star} className='h-4 mt-1 mr-1'/>{ratingAvg}</button>
                 </div>
             </div>
