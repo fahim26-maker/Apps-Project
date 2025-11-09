@@ -13,10 +13,10 @@ function App() {
   return (
     <>
 {/*  
-<Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+<Suspense fallback={<span className="loading loading-spinner loading-xl mx-auto"></span>}>
       <RouterProvider router={router} />
     </Suspense> */}
-     <Toaster />
+     
 
     </>
   )

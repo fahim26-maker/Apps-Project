@@ -5,13 +5,28 @@ import star from "../../assets/fi_1828884.png";
 import like from "../../assets/Vector.png";
 import Chart from 'chart.js/auto';
 import cat from "../../assets/cat.png"
-import toast from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { addStoreDB } from '../../utility/addToDB';
 
 
 const AppsDetails = () => {
+
+  const handleMarkAsInstalled = id => {
+    addStoreDB(id)
+  }
+  // toast--------------
 const handleInstall = () => {
   setIsInstalled(true);
-  toast.success('App Installed Successfully!');
+  toast.success('App Installed Successfully!', {
+    position: 'top-right',
+    autoClose: 3000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+  });
 };
   
   const { id } = useParams();
@@ -25,7 +40,7 @@ const [isInstalled, setIsInstalled] = useState(false);
 
   useEffect(() => {
     if (!singleApp) return;
-
+// ----chart-----------------------
     const ctx = document.getElementById('ratingChart')?.getContext('2d');
     if (ctx) {
       new Chart(ctx, {
@@ -52,6 +67,7 @@ const [isInstalled, setIsInstalled] = useState(false);
       });
     }
   }, [singleApp]);
+  // apps not found error-----------
   if (!singleApp)  
   return(
     
@@ -66,6 +82,7 @@ const [isInstalled, setIsInstalled] = useState(false);
   
   return (
     <section className='bg-[#FFF0E1]'>
+    <ToastContainer />
       <div className='w-9/12 mx-auto'>
         <div className='flex pt-10'>
           <img src={singleApp?.image} className='h-50' />
@@ -93,8 +110,11 @@ const [isInstalled, setIsInstalled] = useState(false);
             </div>
             <div>
               <button
+  onClick={() => {
+    handleMarkAsInstalled(id);
+    handleInstall();
+  }}
   className={`btn mt-4 text-white ${isInstalled ? 'bg-gray-400' : 'bg-[#00D390]'}`}
-  onClick={handleInstall}
   disabled={isInstalled}
 >
   {isInstalled ? 'Installed' : 'Install Now'}
