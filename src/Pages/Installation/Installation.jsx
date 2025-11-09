@@ -13,6 +13,9 @@ import { toast } from 'react-toastify';
 
 
 const Installation = () => {
+  const [sort, setSort] = useState();
+
+  // for un.. toast
    const handleUninstall = (id) => {
   removeAppFromDB(id);
   setAppList(prev => prev.filter(app => app.id !== id));
@@ -25,7 +28,7 @@ console.log("Updated localStorage:", JSON.parse(localStorage.getItem("appList"))
 //   console.log(data)
   const [singleApp, setSingleApp] = useState(null);
  const [appList, setAppList] = useState([]); 
-console.log(appList)
+// console.log(appList)
     useEffect(() => {
         const storedAppData = getStoredApp();
         const ConvertedStoredApps = storedAppData.map(id => parseInt(id))
@@ -35,6 +38,20 @@ console.log(appList)
         const findApp = data?.find((app) => app.id === parseInt(id));
     setSingleApp(findApp);
     },[id, data]);
+
+    const handleSort = (type) => {
+      setSort(type)
+      if (type === "Top Downloads") {
+        const sortedByDownloads = [...appList].sort((a,b) => a.downloads - b.downloads);
+        setAppList(sortedByDownloads)
+        // console.log(sortedByDownloads)
+      }
+      if (type === "Low Downloads") {
+        const sortedByDownloads = [...appList].sort((a,b) => b.downloads - a.downloads);
+        setAppList(sortedByDownloads)
+        //  console.log(sortedByDownloads)
+      }
+    }
    
     return (
       
@@ -44,6 +61,14 @@ console.log(appList)
                         <h1 className='text-3xl font-bold'>Your Installed Apps</h1>
                         <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
                     </div>
+                    {/* sort down */}
+                    <details class="dropdown flex justify-center ">
+      <summary class="btn m-1 bg-[#00D390]">Sort by : {sort?sort:""}</summary>
+      <ul class="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm ">
+      <li><a onClick={()=>handleSort("Top Downloads")}>Top Downloads</a></li>
+      <li><a onClick={()=>handleSort("Low Downloads")}>Low Downloads</a></li>
+          </ul>
+</details>
          {
         appList.map(a=><section className='bg-[#FFF0E1]' key={a.id}>
 
