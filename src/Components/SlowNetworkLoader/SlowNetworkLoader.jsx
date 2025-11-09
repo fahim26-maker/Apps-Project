@@ -27,7 +27,7 @@ const SlowNetworkLoader = ({url}) => {
 
 
     return (
-        <div>
+        <div> 
       {loading && <span className="loading loading-spinner loading-xl mx-auto block"></span>}
       {data && <div>{/* render data */}</div>}
     </div>

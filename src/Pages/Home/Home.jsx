@@ -3,8 +3,6 @@ import Banner from '../../Components/Banner/Banner';
 import { Link } from 'react-router';
 import AppsCard from '../AppsCard/AppsCard';
 import useApps from '../../Hook/useApps';
-import SlowNetworkLoader from '../../Components/SlowNetworkLoader/SlowNetworkLoader';
-
 
 const Home = () => {
   
@@ -14,8 +12,6 @@ const Home = () => {
 
     return (
         <div>
-          <SlowNetworkLoader url="http://localhost:5173/" />
-
           <Banner></Banner>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-[#FFF0E1] px-25 pb-10'>
             {
