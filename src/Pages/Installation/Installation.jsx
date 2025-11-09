@@ -40,8 +40,12 @@ console.log(appList)
       
       <div>
                      <ToastContainer position="top-right" autoClose={3000} />
+                       <div className='text-center py-4'>
+                        <h1 className='text-3xl font-bold'>Your Installed Apps</h1>
+                        <p className='text-gray-500'>Explore All Trending Apps on the Market developed by us</p>
+                    </div>
          {
-        appList.map(a=><section className='bg-[#FFF0E1]'>
+        appList.map(a=><section className='bg-[#FFF0E1]' key={a.id}>
 
                     <div className='w-7/12 mx-auto py-2 '>
                         <div className='p-4 bg-white w-full rounded-2xl shadow-xs flex justify-between'>
