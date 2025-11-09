@@ -6,11 +6,17 @@ import star from "../../assets/fi_1828884.png"
 import Apps from '../Apps/Apps';
 import AppsCard from '../AppsCard/AppsCard';
 import { getStoredApp, removeAppFromDB } from '../../utility/addToDB';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
+
+
 
 const Installation = () => {
    const handleUninstall = (id) => {
   removeAppFromDB(id);
   setAppList(prev => prev.filter(app => app.id !== id));
+      toast.success(`Uninstalled successfully!`);
 };
 console.log("Updated localStorage:", JSON.parse(localStorage.getItem("appList")));
         // const {title, companyName, image, ratingAvg, downloads, id  } = apps
@@ -33,8 +39,10 @@ console.log(appList)
     return (
       
       <div>
+                     <ToastContainer position="top-right" autoClose={3000} />
          {
         appList.map(a=><section className='bg-[#FFF0E1]'>
+
                     <div className='w-7/12 mx-auto py-2 '>
                         <div className='p-4 bg-white w-full rounded-2xl shadow-xs flex justify-between'>
                         <img src={a.image} className='h-50 '/>
