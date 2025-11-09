@@ -42,12 +42,12 @@ console.log("Updated localStorage:", JSON.parse(localStorage.getItem("appList"))
     const handleSort = (type) => {
       setSort(type)
       if (type === "Top Downloads") {
-        const sortedByDownloads = [...appList].sort((a,b) => a.downloads - b.downloads);
+        const sortedByDownloads = [...appList].sort((a,b) => b.downloads - a.downloads);
         setAppList(sortedByDownloads)
         // console.log(sortedByDownloads)
       }
       if (type === "Low Downloads") {
-        const sortedByDownloads = [...appList].sort((a,b) => b.downloads - a.downloads);
+        const sortedByDownloads = [...appList].sort((a,b) => a.downloads - b.downloads);
         setAppList(sortedByDownloads)
         //  console.log(sortedByDownloads)
       }
