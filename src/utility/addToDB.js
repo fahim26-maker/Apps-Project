@@ -21,5 +21,10 @@ const addStoreDB = (id) => {
         localStorage.setItem("appList",data)
     }
 }
+export const removeAppFromDB = (id) => {
+  const storedAppData = getStoredApp(); // ['2', '1', '6']
+  const updatedAppList = storedAppData.filter(appId => appId !== id.toString());
+  localStorage.setItem("appList", JSON.stringify(updatedAppList));
+};
 
 export {addStoreDB, getStoredApp};
