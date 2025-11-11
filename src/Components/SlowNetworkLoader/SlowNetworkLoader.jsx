@@ -8,7 +8,7 @@ const SlowNetworkLoader = ({url}) => {
   useEffect(() => {
     let slowNetworkTimer = setTimeout(() => {
       setLoading(true); // show spinner if fetch takes > 100ms
-    }, 100);
+    }, 500);
 
     fetch(url)
       .then((res) => res.json())
